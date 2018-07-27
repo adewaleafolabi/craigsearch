@@ -35,3 +35,10 @@ eee|events|
 |jjj|jobs|
 |rrr|resumes|
 |bbb|services
+
+
+Example: http://127.0.0.1:9090/api/v1/?query=apartment&category=hhh
+
+This will search for the keyword **apartment** in the category **housing**
+
+`[{"title":"Rent 55 Merchants' Wharf Toronto For Lease $4990 (Toronto)","date":"Jul 27"},{"title":"Rent 55 Merchants' Wharf Toronto For Lease $4750 (Toronto)","date":"Jul 27"},{"title":"Rent 55 Merchants' Wharf Toronto For Lease $3500 (Toronto)","date":"Jul 27"},{"title":"Apart. - 23 Sheppard Ave E - Toronto $2100 (Yonge/Sheppard)","date":"Jul 27"},{"title":"Renovated 1st Floor Junction 1 Bdrm $1400/m utilities included $1400 (Junction/Dundas)","date":"Jul 27"},...]`
